@@ -1,3 +1,3 @@
 # Extracting sentiment from Youtube comments 
-## Displaying positives opinion after removing stop Words 
+## Output Example : Displaying positives words detected from positives opinions after removing stop Words 
 ![Capture d’écran 2021-05-03 à 16 39 06](https://user-images.githubusercontent.com/22420836/116898353-2db14f00-ac2e-11eb-803b-392d92785c60.png)
