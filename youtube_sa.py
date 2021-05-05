@@ -55,3 +55,11 @@ wordcloud = WordCloud(width=1200, height= 800, stopwords=stopwords).generate(all
 plt.figure(figsize=(20,10))
 plt.imshow(wordcloud)
 plt.axis('off')
+
+#Negatives comments
+negatives_comments = yt_comments[yt_comments['Polarity']== -1]
+all_comments = ' '.join(negatives_comments['comment_text'])
+wordcloud = WordCloud(width=1200, height= 800, stopwords=stopwords).generate(all_comments)
+plt.figure(figsize=(20,10))
+plt.imshow(wordcloud)
+plt.axis('off')
